@@ -75,15 +75,15 @@ class vijay:
 
     
     def draw(self,retain=True):
-        self.draw_fn(self.neck,co = (247, 164, 130),mode = 0)
-        self.draw_fn(self.dress,co = (75, 91, 153),mode = 0)
-        self.draw_fn(self.hair,co = (0,0,0),mode = 0)
-        self.draw_fn(self.glass_frame,co = (56, 53, 48),mode = 0)
-        self.draw_fn(self.l_glass,co = (7, 96, 148),mode = 0)
-        self.draw_fn(self.r_glass,co = (7, 96, 148),mode = 0)
-        self.draw_fn(self.inner_beard,co = (241, 152, 112),mode = 0)
-        self.draw_fn(self.lips,co = (238, 104, 114),mode = 0)
-        self.draw_fn(self.teeth,co = (0,0,0),mode = 0)
+        self.draw_fn(self.neck,co = (247, 164, 130),mode = 1)
+        self.draw_fn(self.dress,co = (75, 91, 153),mode = 1)
+        self.draw_fn(self.hair,co = (0,0,0),mode = 1)
+        self.draw_fn(self.glass_frame,co = (56, 53, 48),mode = 1)
+        self.draw_fn(self.l_glass,co = (7, 96, 148),mode = 1)
+        self.draw_fn(self.r_glass,co = (7, 96, 148),mode = 1)
+        self.draw_fn(self.inner_beard,co = (241, 152, 112),mode = 1)
+        self.draw_fn(self.lips,co = (238, 104, 114),mode = 1)
+        self.draw_fn(self.teeth,co = (0,0,0),mode = 1)
         if retain:
             tu.done()
 
